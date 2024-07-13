@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Undertale</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+        }
+        header {
+            background-color: #2d2d2d;
+            color: white;
+            padding: 1em 0;
+            text-align: center;
+        }
+        nav {
+            background-color: #444;
+            padding: 1em;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            margin: 0 1em;
+            text-decoration: none;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        main {
+            padding: 2em;
+            background-color: white;
+        }
+        h1, h2 {
+            color: #2d2d2d;
+        }
+        section {
+            margin-bottom: 2em;
+        }
+        section img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin: 1em 0;
+        }
+        footer {
+            background-color: #2d2d2d;
+            color: white;
+            text-align: center;
+            padding: 1em 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+        .download-link {
+            background-color: #444;
+            color: white;
+            padding: 1em 2em;
+            text-decoration: none;
+            display: inline-block;
+            margin-top: 1em;
+        }
+        .download-link:hover {
+            background-color: #666;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Undertale</h1>
+    </header>
+    <nav>
+        <a href="#intro">Вступ</a>
+        <a href="#story">Історія</a>
+        <a href="#characters">Персонажі</a>
+        <a href="#gameplay">Ігровий процес</a>
+        <a href="#download">Завантаження</a>
+    </nav>
+    <main>
+        <section id="intro">
+            <h2>Вступ</h2>
+            <p>Undertale - це визнана критиками рольова гра, створена незалежним розробником Тобі Фоксом. Гра відома своїми унікальними механіками, захоплюючим сюжетом та незабутніми персонажами.</p>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS1c9ybuVXlfmVM3B7nUnqHlAH4dz6hSO3Spg&s" alt="Undertale Вступ">
+        </section>
+        <section id="story">
+            <h2>Історія</h2>
+            <p>Гра відбувається в Підземеллі, світі, куди були вигнані монстри після війни з людьми. Гравець керує людською дитиною, яка потрапила до Підземелля і повинна знайти шлях назад на поверхню.</p>
+            <img src="https://images.gog-statics.com/1c53ba37fb09f2ef0484fa28e833ca0f1e15cfc24abf55a59bfac36faaee1874_product_card_v2_mobile_slider_639.jpg" alt="Історія Undertale">
+        </section>
+        <section id="characters">
+            <h2>Персонажі</h2>
+            <p>Undertale містить різноманітний склад персонажів, кожен з яких має свої унікальні особистості та історії. Серед найбільш улюблених персонажів - Санс, Папайрус, Торіель та Флауї.</p>
+            <img src="https://pm1.aminoapps.com/6224/b7a60f24c0b63a2f25277815ca14404bd5d48654_00.jpg" alt="Персонажі Undertale">
+        </section>
+        <section id="gameplay">
+            <h2>Ігровий процес</h2>
+            <p>Undertale пропонує унікальну систему бою, де гравці можуть вибирати між дружбою або боротьбою з ворогами. Вибори, зроблені гравцем, впливають на результат гри, приводячи до різних кінцівок.</p>
+            <img src="https://steamuserimages-a.akamaihd.net/ugc/1866177356153488565/7BAC46045AAB06F193C7AAF6EB2187545E5F5FA0/?imw=512&imh=288&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=true" alt="Ігровий процес Undertale">
+        </section>
+        <section id="download">
+            <h2>Завантаження</h2>
+            <p>Якщо ви зацікавлені в грі Undertale, ви можете завантажити її з офіційного сайту або через різні платформи цифрової дистрибуції.</p>
+            <a class="download-link" href="https://example.com/download-undertale" target="_blank">Завантажити Undertale</a>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Сторінка фанатів Undertale</p>
+    </footer>
+</body>
+</html>
